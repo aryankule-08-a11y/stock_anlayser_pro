@@ -16,8 +16,8 @@ warnings.filterwarnings('ignore')
 
 # Page config
 st.set_page_config(
-    page_title="Indian Stock Analyzer - BSE & NSE",
-    page_icon="🇮🇳",
+    page_title="Stock Analyzer Pro - BSE & NSE",
+    page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -479,8 +479,8 @@ def main():
     """Main application function."""
     
     # Header
-    st.markdown('<p class="main-header">🇮🇳 Indian Stock Analyzer</p>', unsafe_allow_html=True)
-    st.markdown('<p class="sub-header">BSE & NSE Market Analysis with AI-Powered Predictions</p>', unsafe_allow_html=True)
+    st.markdown('<p class="main-header">📈 Stock Analyzer Pro</p>', unsafe_allow_html=True)
+    st.markdown('<p class="sub-header">Advanced Market Analysis & AI Predictions by Aryan</p>', unsafe_allow_html=True)
     
     # Sidebar
     with st.sidebar:
@@ -615,6 +615,9 @@ def main():
         st.divider()
         with st.expander("⚠️ Disclaimer", expanded=False):
             st.markdown(DISCLAIMER)
+            
+        st.markdown("---")
+        st.markdown("Developed with ❤️ by **Aryan**")
     
     # Main content
     if analyze_btn and symbol:

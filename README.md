@@ -1,4 +1,4 @@
-# 🇮🇳 Indian Stock Analyzer - BSE & NSE
+# 📈 Stock Analyzer Pro - Advanced Indian Market Analysis
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-red.svg)](https://streamlit.io)
@@ -52,7 +52,7 @@ A professional-grade stock market analysis and AI-powered price prediction syste
 ### Installation
 
 ```bash
-cd Stock_Analyzer
+cd stock_analyser_pro
 pip install -r requirements.txt
 ```
 
@@ -67,7 +67,7 @@ Open browser: **http://localhost:8501**
 ## 📁 Project Structure
 
 ```
-Stock_Analyzer/
+stock_analyser_pro/
 ├── app.py                    # Streamlit dashboard (BSE/NSE focused)
 ├── config.py                 # Configuration
 ├── requirements.txt          # Dependencies
@@ -122,5 +122,6 @@ MIT License - See [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-  Made with ❤️ for Indian investors
+  <b>Developed with ❤️ by Aryan</b><br>
+  <i>Empowering Indian Investors</i>
 </p>
