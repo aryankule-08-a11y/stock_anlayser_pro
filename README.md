@@ -53,7 +53,13 @@ A professional-grade stock market analysis and AI-powered price prediction syste
 ### Installation
 
 ```bash
-cd Stock_Analyzer
+# Clone the repository
+git clone https://github.com/aryankule-08-a11y/stock_anlayser_pro.git
+
+# Navigate to the project directory
+cd stock_analyser_pro
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
