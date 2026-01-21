@@ -2,9 +2,9 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-red.svg)](https://streamlit.io)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-brightgreen?style=for-the-badge)](https://stockanlayserpro-aryank.streamlit.app/)
 
-> **🔴 LIVE DEMO**: [Click here to use the App](https://stockanlayserpro-aryank.streamlit.app/)
-> *(Experience the professional stock analysis dashboard live)*
+> **🎯 Try it now!** Click the **Live Demo** badge above to use the app instantly - no installation required!
 
 A professional-grade stock market analysis and AI-powered price prediction system specifically designed for **BSE** (Bombay Stock Exchange) and **NSE** (National Stock Exchange) stocks.
 
