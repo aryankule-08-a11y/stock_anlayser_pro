@@ -1,10 +1,7 @@
-# 📈 Stock Analyzer Pro - Advanced Indian Market Analysis
+# 📈 Stock Analyzer Pro
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-red.svg)](https://streamlit.io)
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-brightgreen?style=for-the-badge)](https://stockanlayserpro-aryank.streamlit.app/)
-
-> **🎯 Try it now!** Click the **Live Demo** badge above to use the app instantly - no installation required!
 
 A professional-grade stock market analysis and AI-powered price prediction system specifically designed for **BSE** (Bombay Stock Exchange) and **NSE** (National Stock Exchange) stocks.
 
@@ -55,7 +52,7 @@ A professional-grade stock market analysis and AI-powered price prediction syste
 ### Installation
 
 ```bash
-cd stock_analyser_pro
+cd Stock_Analyzer
 pip install -r requirements.txt
 ```
 
@@ -70,7 +67,7 @@ Open browser: **http://localhost:8501**
 ## 📁 Project Structure
 
 ```
-stock_analyser_pro/
+Stock_Analyzer/
 ├── app.py                    # Streamlit dashboard (BSE/NSE focused)
 ├── config.py                 # Configuration
 ├── requirements.txt          # Dependencies
@@ -125,6 +122,5 @@ MIT License - See [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-  <b>Developed with ❤️ by Aryan</b><br>
-  <i>Empowering Indian Investors</i>
+  Made with ❤️ for Indian investors
 </p>

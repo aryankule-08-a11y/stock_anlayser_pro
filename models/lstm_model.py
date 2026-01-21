@@ -13,6 +13,14 @@ from sklearn.preprocessing import MinMaxScaler
 from .base import BaseModel
 from config import LSTM_SEQUENCE_LENGTH, LSTM_EPOCHS, LSTM_BATCH_SIZE, LSTM_UNITS
 
+try:
+    from tensorflow.keras.models import Sequential
+    from tensorflow.keras.layers import LSTM, Dense, Dropout
+    from tensorflow.keras.optimizers import Adam
+    HAS_TF = True
+except ImportError:
+    HAS_TF = False
+
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -80,13 +88,9 @@ class LSTMModel(BaseModel):
         Args:
             input_shape: Shape of input sequences
         """
-        try:
-            from tensorflow.keras.models import Sequential
-            from tensorflow.keras.layers import LSTM, Dense, Dropout
-            from tensorflow.keras.optimizers import Adam
-        except ImportError:
+        if not HAS_TF:
             raise ImportError("TensorFlow not installed. Run: pip install tensorflow")
-        
+            
         self.model = Sequential([
             LSTM(units=self.units, return_sequences=True, input_shape=input_shape),
             Dropout(0.2),

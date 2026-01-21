@@ -11,6 +11,12 @@ import numpy as np
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
+from models.prophet_model import ProphetModel
+from models.xgboost_model import XGBoostModel
+try:
+    from models.lstm_model import LSTMModel
+except ImportError:
+    LSTMModel = None
 from models.base import BaseModel
 from config import DEFAULT_PREDICTION_DAYS, CHART_HEIGHT, CHART_TEMPLATE
 
